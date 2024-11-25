@@ -1,0 +1,119 @@
+:root {
+  --green: #008e75;
+  --dark-green: #006553;
+  --light-green: #70AB69;
+  --white: #fbfbfb;
+  --gray: #f7f7f7;
+  --txt-gray: #92a497;
+}
+
+footer {
+  background-color: var(--green);
+}
+
+.rodape-p {
+  color: var(--gray);
+  font-size: 0.8em;
+  font-weight: 100;
+ background-color: var(--dark-green);
+ padding: 5px;
+ margin: 0;
+}
+
+.txt-green {
+  color: var(--green);
+}
+
+.txt-white {
+  color: var(--white);
+}
+
+.txt-gray {
+  color: var(--txt-gray);
+}
+
+/*____________________________________________________________________________*/
+
+  .list-hvr {
+  border-bottom: 2px solid var(--gray) ;
+}
+
+.list-hvr:hover,
+.list-hvr:active,
+.green-actv:focus {
+  border-bottom: 2px solid var(--green);
+  color: var(--green);
+}
+
+/*____________________________________________________________________________*/
+  .green-hover {
+  color: var(--cinza);
+  background-color: var(--green);
+}
+
+.green-hvr:hover {
+  color: var(--white);
+  background-color: var(--green);
+}
+
+.green-actv-2:focus {
+  color: var(--white);
+  background-color: var(--green);
+}
+
+.green-actv-2:active {
+  color: var(--white);
+  background-color: var(--green);
+}
+
+.brdr-bottom {
+  border-bottom: 2px solid var(--white);
+}
+
+.brdr-bottom2 {
+  border-bottom: 2px solid var(--light-green);
+}
+
+.btn-border-1 {
+  color: var(--branco);
+  border-radius: 1px;
+  background-color: var(--green);
+}
+
+.btn-border-1:hover {
+  background-color: var(--light-green);
+} 
+
+.fnt-2 {
+  font-size: 1.2rem;
+}
+
+/*____________________________________________________________________________*/
+ 
+
+@media (max-width: 1024px) {
+  .img-1 {
+    height:32rem;
+    width: fixed;
+    object-fit: cover;
+  }
+
+  .card1 {
+margin-top: 2rem;
+  }
+
+}
+
+@media (max-width: 820px) {
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.7em;
+  }
+
+  .rodape-menu a {
+font-size: 0.8rem;
+  }
+}
