@@ -4,7 +4,9 @@
   --light-green: #70AB69;
   --white: #fbfbfb;
   --gray: #f7f7f7;
+  --yellow: #F1C75B;
   --txt-gray: #92a497;
+
 }
 
 footer {
@@ -30,6 +32,10 @@ footer {
 
 .txt-gray {
   color: var(--txt-gray);
+}
+
+.txt-ylw {
+ color: var(--yellow);
 }
 
 /*____________________________________________________________________________*/
@@ -75,9 +81,11 @@ footer {
 }
 
 .btn-border-1 {
-  color: var(--branco);
-  border-radius: 1px;
-  background-color: var(--green);
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 1;
+  color: var(--white);
+  border-color: var(--white);
 }
 
 .btn-border-1:hover {
@@ -85,7 +93,17 @@ footer {
 } 
 
 /*____________________________________________________________________________*/
- 
+
+#frase-1 {
+  font-size: 37px;
+}
+
+#frase-2 {
+  font-size: 24px;
+  font-weight: 470;
+}
+
+/*____________________________________________________________________________*/
 
 @media (max-width: 1024px) {
   .img-1 {
@@ -111,5 +129,21 @@ margin-top: 2rem;
 
   .rodape-menu a {
 font-size: 0.8rem;
+  }
+
+  #frase-1 {
+    font-size: 32px;
+  }
+
+  #frase-2 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1442px) {
+  #inicio-img {
+    height:512;
+    width: 100%;
+    object-fit: cover;
   }
 }
