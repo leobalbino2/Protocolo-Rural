@@ -22,6 +22,10 @@ footer {
  margin: 0;
 }
 
+p {
+  font-size: 20px;
+}
+
 .txt-green {
   color: var(--green);
 }
@@ -78,6 +82,10 @@ footer {
 
 .brdr-bottom2 {
   border-bottom: 2px solid var(--light-green);
+}
+
+.brdr-bottom3 {
+  border-bottom: 2px solid var(--gray);
 }
 
 .btn-border-1 {
