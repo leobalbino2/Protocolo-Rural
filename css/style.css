@@ -100,6 +100,11 @@ p {
   background-color: var(--light-green);
 } 
 
+.btn-saiba:hover, .btn-saiba:active  {
+  color: var(--white);
+  border-color: transparent;
+}
+
 /*____________________________________________________________________________*/
 
 #frase-1 {
