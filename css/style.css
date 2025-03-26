@@ -8,6 +8,7 @@
   --txt-gray: #92a497;
   --gray2: #a9a9a9;
   --gray3: #777777;
+  --red: #d83b3b;
 }
 
 footer {
@@ -77,8 +78,9 @@ p {
 }
 
 /*____________________________________________________________________________*/
+
 .green-hover {
-  color: var(--cinza);
+  color: var(--gray3); 
   background-color: var(--green);
 }
 
@@ -87,11 +89,7 @@ p {
   background-color: var(--green);
 }
 
-.green-actv-2:focus {
-  color: var(--white);
-  background-color: var(--green);
-}
-
+.green-actv-2:focus,
 .green-actv-2:active {
   color: var(--white);
   background-color: var(--green);
@@ -112,12 +110,12 @@ p {
 .btn-border-1 {
   background-color: transparent;
   border: 2px solid;
-  border-radius: 1;
+  border-radius: 1px;
   color: var(--white);
   border-color: var(--white);
 }
 
-.btn-border-1:hover, {
+.btn-border-1:hover {
   background-color: var(--light-green);
 }
 
@@ -134,20 +132,31 @@ p {
 }
 
 .btn-msg:hover,
-.btn-msg:active, .btn-sbmt2:hover, .btn-sbmt2:active {
+.btn-msg:active, 
+.btn-sbmt2:hover, 
+.btn-sbmt2:active {
   color: var(--white);
   background-color: var(--dark-green);
 }
 
+.btn-sbmt3:hover, .btn-sbmt3:active {
+  color: var(--white);
+  background-color: #6e0000;
+}
+
 .btn-sbmt {
   border: 2px solid var(--gray2);
-  border-radius: 1;
+  border-radius: 1px;
 }
 
 .btn-sbmt2 {
   color: var(--white);
   background-color: var(--light-green);
-  
+}
+
+.btn-sbmt3 {
+  color: var(--white);
+  background-color: var(--red);
 }
 
 .cursor-pointer {
@@ -164,6 +173,7 @@ p {
   font-size: 24px;
   font-weight: 470;
 }
+
 /*____________________________________________________________________________*/
 
 #overlay {
@@ -178,12 +188,16 @@ p {
   margin-bottom: 30vh;
 }
 
+.fundo-tabela, th{
+  background-color: var(--green) !important;
+  color: var(--white) !important;
+}
+
 /*____________________________________________________________________________*/
 
 @media (max-width: 1024px) {
   .img-1 {
     height: 32rem;
-    width: fixed;
     object-fit: cover;
   }
 
@@ -216,7 +230,7 @@ p {
 
 @media (min-width: 1442px) {
   #inicio-img {
-    height: 512;
+    height: 512px;
     width: 100%;
     object-fit: cover;
   }
