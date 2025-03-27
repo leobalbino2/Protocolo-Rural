@@ -64,6 +64,12 @@ p {
   color: var(--txt-gray);
 }
 
+ol {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+  list-style: none;
+}
+
 /*____________________________________________________________________________*/
 
 .list-hvr {
