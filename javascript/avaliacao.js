@@ -1,3 +1,5 @@
+  /*----------------------------------- Indicadores, Perguntas e Respostas -----------------------------------*/
+
 let perguntas = [
     {
       titulo: "Situação das Nascentes",
@@ -180,7 +182,9 @@ let perguntas = [
         resposta: null
       }
   ];
-  
+
+    /*----------------------------------- Código da Avaliação -----------------------------------*/
+
   // Variável que guarda qual indicador o usuário está visualizando em sua avaliação
   let perguntaAtual = 0;
 
@@ -232,6 +236,8 @@ let perguntas = [
     }
   }
   
+    /*----------------------------------- Botão Próximo -----------------------------------*/
+
   // Botão para o próximo indicador
   function proximaPergunta() {
     const avancarBtn = document.getElementById('avancarBtn');
@@ -244,6 +250,8 @@ let perguntas = [
     }
   }
   
+    /*----------------------------------- Botão Anterior -----------------------------------*/
+
   // Botão para o indicador anterior
   function anteriorPergunta() {
     if (perguntaAtual > 0) {
