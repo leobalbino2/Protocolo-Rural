@@ -11,6 +11,10 @@
   --red: #d83b3b;
 }
 
+.no-border-radius .modal-content {
+  border-radius: 0;
+}
+
 footer {
   background-color: var(--green);
 }

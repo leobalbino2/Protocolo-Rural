@@ -1,3 +1,23 @@
+  /*----------------------------------- Guardar Nome da Avaliação  -----------------------------------*/
+
+  document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('avaliacaoNomeForm').addEventListener('submit', function(event) {
+      event.preventDefault();  
+      const nomeAvaliacao = document.getElementById('nomeAvaliacao').value;  
+      localStorage.setItem('nomeAvaliacao', nomeAvaliacao); 
+      window.location.href = './avaliacao/index.html'; 
+    });
+  });
+  
+  /*----------------------------------- Puxar Nome da Avaliação  -----------------------------------*/
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const nomeAvaliacao = localStorage.getItem('nomeAvaliacao');
+    if (nomeAvaliacao) {
+      document.getElementById('nomeAvaliacao').textContent = nomeAvaliacao;
+    }
+  });
+
   /*----------------------------------- Indicadores, Perguntas e Respostas -----------------------------------*/
 
 let perguntas = [

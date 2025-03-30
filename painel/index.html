@@ -125,7 +125,7 @@
       <div class="container mt-5 pt-5 pb-5">
         <div class="d-flex justify-content-between align-items-center">
           <h3 class="fw-bold pb-2 mt-4">Painel de Avaliações</h3>
-          <a href="./avaliacao/index.html" class="btn btn-sbmt2"
+          <a href="./avaliacao/index.html" class="btn btn-sbmt2" data-bs-toggle="modal" data-bs-target="#criarAvaliacao"
             >Criar Nova Avaliação</a
           >
         </div>
@@ -155,6 +155,25 @@
         </div>
         <div style="height: 45vh"></div>
       </div>
+
+      <div class="modal fade" id="criarAvaliacao" tabindex="-1" aria-labelledby="criarAvaliacaoLabel" data-bs-backdrop="static" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable no-border-radius">
+          <div class="modal-content">
+            <div class="modal-header d-flex align-items-center justify-content-between">
+              <h1 class="modal-title fs-5" id="criarAvaliacaoLabel">Dê um nome à Avaliação</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form id="avaliacaoNomeForm" class="mx-auto justify-content-center">
+                <p class="mt-2 mb-3">Digite o nome da propriedade rural que será avaliada.</p>
+                <input type="text" class="form-control" id="nomeAvaliacao" aria-describedby="text" placeholder="Informe o nome da avaliação" />
+                <button type="submit" class="btn btn-sbmt2 my-3 mt-4 d-block mx-auto col-6">Enviar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </main>
 
     <!------------------------------------------- Footer ------------------------------------------->
@@ -200,6 +219,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <script src="../javascript/script.js"></script>
+    <script src="../javascript/avaliacao.js"></script>
   </body>
 </html>
