@@ -160,6 +160,11 @@ ol {
   border-radius: 1px;
 }
 
+.btn-sbmt {
+  min-width: 120px; /* Ajuste esse valor conforme necessário */
+  white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+}
+
 .btn-sbmt2 {
   color: var(--white);
   background-color: var(--light-green);
