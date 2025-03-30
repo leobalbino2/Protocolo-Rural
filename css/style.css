@@ -95,6 +95,11 @@ ol {
   background-color: var(--green);
 }
 
+.pag-atual {
+  border-bottom: 2px solid var(--green);
+  color: var(--green);
+}
+
 .green-actv-2:focus,
 .green-actv-2:active {
   color: var(--white);
