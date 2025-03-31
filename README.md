@@ -30,4 +30,7 @@ Abra o navegador e acesse:
 https://leobalbino2.github.io/Protocolo-Rural/
 ```
 
+## Desenvolvido por:
+* <p><a href="https://github.com/leobalbino2" target="_blank">Leonardo Balbino</a></p>
+* <p><a href="https://github.com/nicoly524" target="_blank">Nicoly Whitehead Maria Bonani</a></p>
 
