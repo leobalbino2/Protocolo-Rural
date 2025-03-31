@@ -104,6 +104,11 @@ ol {
   color: var(--green);
 }
 
+.pag-atual-2 {
+  background-color: var(--green);
+  color: var(--white);
+}
+
 .green-actv-2:focus,
 .green-actv-2:active {
   color: var(--white);
@@ -165,8 +170,8 @@ ol {
 }
 
 .btn-sbmt {
-  min-width: 120px; /* Ajuste esse valor conforme necessário */
-  white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+  min-width: 120px; 
+  white-space: nowrap; 
 }
 
 .btn-sbmt2 {
@@ -186,6 +191,12 @@ ol {
 #avancarBtn:disabled {
   color: #c2c2c2;  
   cursor: not-allowed;  /
+}
+
+.borda-verde {
+  background-color: var(--green);
+  padding: 22px;
+  margin-bottom: 20px;
 }
 
 /*____________________________________________________________________________*/
