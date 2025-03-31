@@ -1,4 +1,4 @@
-# Projeto Integrador - Protocolo Rural
+# ![Texto alternativo](Protocolo-Rural/imgs/logo.png)
 
 ## Sobre o Projeto
 Este projeto é um sistema web desenvolvido para facilitar a avaliação de sustentabilidade em agrossistemas, permitindo que tanto pequenos quanto grandes proprietários rurais avaliem a sustentabilidade de suas propriedades de forma eficiente e acessível. Ele permite que usuários realizem diagnósticos e visualizem uma métrica de desempenho ambiental de suas propriedades rurais.
