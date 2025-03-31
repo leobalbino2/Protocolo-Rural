@@ -11,16 +11,16 @@ Este projeto é um sistema web desenvolvido para facilitar a avaliação de sust
 
 ##  Como Acessar o Projeto
 
-### Clonar o Repositório
-1. Abra o terminal e execute:
+### 1. Clonar o Repositório
+ Abra o terminal e execute:
 ```sh
  cd desktop
  git clone https://github.com/leobalbino2/Protocolo-Rural.git
  cd Protocolo-rural
 ```
 
-### Executando no VS Code
-2. Abra o Visual Studio Code e carregue a pasta do projeto.
+### 2. Executando no VS Code
+Abra o Visual Studio Code e carregue a pasta do projeto atráves da extensão "Live Server".
 
 <hr>
 
