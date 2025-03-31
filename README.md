@@ -22,13 +22,12 @@ Este projeto é um sistema web desenvolvido para facilitar a avaliação de sust
 ### 2. Executando no VS Code
 Abra o Visual Studio Code e carregue a pasta do projeto atráves da extensão "Live Server".
 
-<hr>
-
-###  Acessando o projeto atráves do GitHub Pages
+### 3. Acessando o projeto atráves do GitHub Pages
 Abra o navegador e acesse:
 ```
 https://leobalbino2.github.io/Protocolo-Rural/
 ```
+<hr>
 
 ## Desenvolvido por:
 * <p><a href="https://github.com/leobalbino2" target="_blank">Leonardo Balbino</a></p>
